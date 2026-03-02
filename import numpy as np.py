@@ -94,7 +94,7 @@ if __name__ == "__main__":
 
     signal_int16 = (signal * 32767).astype(np.int16)
 
-    # 📌 DOSYAYI KOD DOSYASININ BULUNDUĞU YERE KAYDET
+
     script_dir = os.path.dirname(os.path.abspath(__file__))
     output_path = os.path.join(script_dir, "dtmf_output.wav")
 
